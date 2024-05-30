@@ -11,9 +11,9 @@
 
 const favoriteInputFilter = true;
 const movies = [
-    { name: 'Harry Potter', favorite: true },
-    { name: 'Avengers', favorite: false },
-    { name: 'Matilda', favorite: true },
-    { name: 'Hunger games', favorite: false },
-    { name: 'Pretty woman', favorite: false },
+    { name: 'Harry Potter', isFavorite: true },
+    { name: 'Avengers', isFavorite: false },
+    { name: 'Matilda', isFavorite: true },
+    { name: 'Hunger games', isFavorite: false },
+    { name: 'Pretty woman', isFavorite: false },
 ];

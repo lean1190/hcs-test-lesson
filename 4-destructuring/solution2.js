@@ -15,8 +15,8 @@ console.log('Go ' + secondPokemon + '!');
 const array = ['value1', 'value2'];
 
 // 2. Use the destructuring syntax
-// = ['value1', 'value2'] -> from this "array" on the right side of the assignment...
-// const [array[0], array[1]] -> take the first two elements and assign them to variables -- we can use let or const
+// Right side of assignment: = ['value1', 'value2'] -> from this "array" on the right side of the assignment...
+// Left side of assignment: const [array[0], array[1]] -> take the first two elements and assign them to variables -- we can use let or const
 
 // 3. Complete the destructured assignment
 // const [array[0], array[1]] = array; -> this syntax doesn't work, it's just for the example

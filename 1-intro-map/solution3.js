@@ -1,14 +1,31 @@
 // The .map() way
 const pokemons = ['ditto', 'mew'];
-const goPokemons = pokemons.map((pokemon) => 'go ' + pokemon);
+const goPokemons = pokemons.map((pokemon) => {
+    return 'go ' + pokemon
+});
+// Loop 1: ('ditto') => { return 'go ' + 'ditto' };
+// Loop 2: ('mew') => { return 'go ' + 'mew' };
 
 console.log(pokemons, goPokemons);
 
+
+
+
+
+
+
+
+
+
+// ------------------------------------------------------------------
+
 // Have you learned about arrow functions already? "() => {}"
+// They are a different way to write a function.
+
 // With regular functions we can write is as:
-// const goPokemons = pokemons.map(function(pokemon) {
-//   return 'go ' + pokemon;
-// });
+const goPokemonsOldFashion = pokemons.map(function(pokemon) {
+  return 'go ' + pokemon;
+});
 
 
 

@@ -8,7 +8,7 @@ function sumWithForLoop(...numbers) {
     return result;
 }
 
-// Teaser of another immutable array operator, reduce
+// Teaser of another powerful, and more complicated, immutable array operator => reduce
 function sumWithReduce(...numbers) {
     return numbers.reduce((result, n) => result + n, 0);
 }

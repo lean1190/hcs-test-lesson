@@ -1,16 +1,16 @@
 const movies = [
-    { name: 'Harry Potter', favorite: true },
-    { name: 'Avengers', favorite: false },
-    { name: 'Matilda', favorite: true },
-    { name: 'Hunger games', favorite: false },
-    { name: 'Pretty woman', favorite: false },
+    { name: 'Harry Potter', isFavorite: true },
+    { name: 'Avengers', isFavorite: false },
+    { name: 'Matilda', isFavorite: true },
+    { name: 'Hunger games', isFavorite: false },
+    { name: 'Pretty woman', isFavorite: false },
 ];
 
 // We will set the last element of the array to be a favorite
 const lastElementIndex = movies.length - 1;
 const updatedLastElement = {
     ...movies[lastElementIndex],
-    favorite: true, // We overwrite the value
+    isFavorite: true, // We overwrite the value
     changed: 'This one changed!' // And we add one extra property because we can :)
 };
 

@@ -12,17 +12,17 @@ console.log('Updated pokemon:', immutablePokemon);
 // Spreading step by step
 const updatedPerson = {
     // 1. The ... operator "removes" the brackets "{}", and creates a copy of the properties inside the object.
+    ...{ 
+        name: 'lean', 
+        surname: 'vilas' 
+    },
     // This creates an object like
     // const updatedPerson = {
     //      name: 'lean',
     //      surname: 'vilas'
     // }
-    ...{ 
-        name: 'lean', 
-        surname: 'vilas' 
-    },
 
-    // 2. We overwrite the value of the property with the same name
+    // 2. We overwrite the value of the property with the same key 'name'
     name: 'updated'
     // This creates an object like
     // const updatedPerson = {

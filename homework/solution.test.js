@@ -1,5 +1,5 @@
 function filterMovies(movies, filterInput) {
-    return movies.filter(({ favorite }) => favorite === filterInput);
+    return movies.filter(({ isFavorite }) => isFavorite === filterInput);
 }
 
 describe('filterMovies', () => {
@@ -7,18 +7,18 @@ describe('filterMovies', () => {
     it('should return only movies that are favorite', () => {
         const favoriteInputFilter = true;
         const movies = [
-            { name: 'Harry Potter', favorite: true },
-            { name: 'Avengers', favorite: false },
-            { name: 'Matilda', favorite: true },
-            { name: 'Hunger games', favorite: false },
-            { name: 'Pretty woman', favorite: false },
+            { name: 'Harry Potter', isFavorite: true },
+            { name: 'Avengers', isFavorite: false },
+            { name: 'Matilda', isFavorite: true },
+            { name: 'Hunger games', isFavorite: false },
+            { name: 'Pretty woman', isFavorite: false },
         ];
 
         const result = filterMovies(movies, favoriteInputFilter);
         expect(result.length).toBe(2);
 
         const [firstMovie, secondMovie] = result;
-        expect(firstMovie.favorite).toBe(true);
-        expect(secondMovie.favorite).toBe(true);
+        expect(firstMovie.isFavorite).toBe(true);
+        expect(secondMovie.isFavorite).toBe(true);
     });
 });

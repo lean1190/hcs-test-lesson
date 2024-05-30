@@ -19,7 +19,7 @@ console.log(pokemons);
 
 
 /**
- * 1. Output to the console the array ['go ditto', 'go mew'] by using a for loop
+ * 1. Transform this array into ['go ditto', 'go mew'] by using a for loop, and print it to the console
  */
 
 
@@ -39,7 +39,7 @@ console.log(pokemons);
 // ------------------------------------------------------------------
 
 /**
- * 2. Output to the console both arrays, ['ditto', 'mew'] and ['go ditto', 'go mew']
+ * 2. Print to the console both arrays, ['ditto', 'mew'] and ['go ditto', 'go mew']
  */
 
 
@@ -60,5 +60,5 @@ console.log(pokemons);
 // ------------------------------------------------------------------
 
 /**
- * 3. Output to the console both arrays, using .map()
+ * 3. Print to the console both arrays, using .map()
  */

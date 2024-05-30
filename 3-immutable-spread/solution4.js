@@ -11,18 +11,21 @@ const allPokemons = [
 
 console.log('All pokemons!', allPokemons);
 
+
+
+
 // This is the same as doing
-// const concatPokemons = pokemons.concat(allPokemons);
-// console.log('Concat pokemons', allPokemons);
+const concatPokemons = pokemons.concat(allPokemons);
+console.log('Concat pokemons', allPokemons);
 
 // Or doing
-// const forLoopPokemons = pokemons;
-// for (let index = 0; index < morePokemons.length; index++) {
-//     forLoopPokemons.push(morePokemons[index]);
-// }
+const forLoopPokemons = pokemons;
+for (let index = 0; index < morePokemons.length; index++) {
+    forLoopPokemons.push(morePokemons[index]);
+}
 
-// console.log('All pokemons with a for loop', pokemons);
-// Did you notice something?
+console.log('All pokemons with a for loop', pokemons);
+// Did you notice something odd?
 
 
 

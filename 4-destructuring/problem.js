@@ -5,14 +5,34 @@
 const pokemons = ['ditto', 'mew', 'pikachu', 'charmander', 'bulbasaur'];
 
 /**
- * 1. Output to the console the first pokemon in the array
+ * 1. Print to the console the first pokemon in the array
  */
+
+
+
+
+
+
+
+
+
 
 // ------------------------------------------------------------------
 
 /**
- * 2. Output to the console the first 2 pokemons in the array without accessing the array via index
+ * 2. Print to the console the first 2 pokemons in the array without accessing the array via index
  */
+
+
+
+
+
+
+
+
+
+
+
 
 // ------------------------------------------------------------------
 
@@ -23,11 +43,31 @@ const pokemons = ['ditto', 'mew', 'pikachu', 'charmander', 'bulbasaur'];
 // ==> Try destructuring this object
 const pokemon = { name: 'mew', foundIn: 'Kanto' };
 
+
+
+
+
+
+
+
+
+
+
 // ------------------------------------------------------------------
 
 /**
  * 4. How can we remove a property from an object?
  */
+
+
+
+
+
+
+
+
+
+
 
 // ------------------------------------------------------------------
 

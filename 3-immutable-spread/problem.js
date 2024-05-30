@@ -1,5 +1,3 @@
-
-
 /**
  * 1. How can we create immutable primitive values like a boolean, a number, or a string?
  */
